@@ -102,6 +102,10 @@ There is also a full-text company name to CIK lookup here:
 
 (Note this does a POST to a 'text' API at <http://www.sec.gov/cgi-bin/cik.pl.c>)
 
+## Parsing XBRL Data
+
+See `scripts` and README file there.
+
 ## References
 
 * CorpWatch have an excellent API and DB dump covering a lot of EDGAR info - see the [CorpWatch DataHub Entry][corpwatch]
