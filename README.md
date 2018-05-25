@@ -38,7 +38,7 @@ Next each submission receives an 'Accession Number' (acc-no). For example,
 IBM's quarterly financial filing (form 10-Q) in October 2013 had accession
 number: `0000051143-13-000007`.
 
-### FTP File Paths
+### HTTPS File Paths
 
 Given a company with CIK (company ID) XXX (omitting leading zeroes) and
 document accession number YYY (acc-no on search results) the path would be:
@@ -50,8 +50,9 @@ File paths are of the form:
 For example, for the IBM data above it would be:
 
 ~~<ftp://ftp.sec.gov/edgar/data/51143/0000051143-13-000007.txt>~~
+<https://www.sec.gov/Archives/edgar/data/51143/0000051143-13-000007.txt>
 
-EDGAR has retired FTP services. Instead use the HTTPS equivalent.
+EDGAR has retired HTTP services. Instead use the HTTPS equivalent.
 
 <https://www.sec.gov/Archives/edgar/data/51143/0000051143-13-000007.txt>
 
@@ -64,7 +65,7 @@ Archives section with a similar URL (just add -index.html):
 
 If you want to get a list of all filings you'll want to grab an Index. As the help page explains:
 
-> The EDGAR indices are a helpful resource for FTP retrieval, listing the
+> The EDGAR indices are a helpful resource for HTTPS retrieval, listing the
 > following information for each filing: Company Name, Form Type, CIK, Date
 > Filed, and File Name (including folder path).
 > 
