@@ -17,8 +17,8 @@ See <http://www.sec.gov/edgar/searchedgar/companysearch.html>
 
 ## Bulk Data
 
-EDGAR provides bulk access via FTP: <ftp://ftp.sec.gov/> - [official
-documentation][ftp-doc]. We summarize here the main points.
+~~EDGAR provides bulk access via FTP: <ftp://ftp.sec.gov/> - [official
+documentation][ftp-doc]. We summarize here the main points.~~
 
 Each company in EDGAR gets an identifier known as the CIK which is a 10 digit
 number. You can find the CIK by searching EDGAR using a name of stock market
@@ -27,7 +27,7 @@ ticker.
 For example, [searching for IBM by ticker][ibm-search] shows us that
 the the CIK is `0000051143`.
 
-Note that leading zeroes are often omitted (e.g. in the ftp access) so this
+Note that leading zeroes are often omitted ~~(e.g. in the ftp access)~~ so this
 would become `51143`.
 
 [ibm-search]: http://www.sec.gov/cgi-bin/browse-edgar?CIK=ibm&action=getcompany
@@ -49,7 +49,11 @@ File paths are of the form:
 
 For example, for the IBM data above it would be:
 
-<ftp://ftp.sec.gov/edgar/data/51143/0000051143-13-000007.txt>
+~~<ftp://ftp.sec.gov/edgar/data/51143/0000051143-13-000007.txt>~~
+
+EDGAR has retired FTP services. Instead use the HTTPS equivalent.
+
+<https://www.sec.gov/Archives/edgar/data/51143/0000051143-13-000007.txt>
 
 Note, if you are looking for a nice HTML version you can find it at in the
 Archives section with a similar URL (just add -index.html):
@@ -74,17 +78,20 @@ If you want to get a list of all filings you'll want to grab an Index. As the he
 
 URLs are like:
 
-<ftp://ftp.sec.gov/edgar/full-index/2008/QTR4/master.gz>
+~~<ftp://ftp.sec.gov/edgar/full-index/2008/QTR4/master.gz>~~
+<https://www.sec.gov/Archives/edgar/full-index/2008/QTR4/master.gz>
 
 That is, they have the following general form:
 
-    ftp://ftp.sec.gov/edgar/full-index/{YYYY}/QTR{1-4}/{index-name}.[gz|zip]
+    ~~ftp://ftp.sec.gov/edgar/full-index/{YYYY}/QTR{1-4}/{index-name}.[gz|zip]~~
+    https://www.sec.gov/Archives/edgar/full-index/{YYYY}/QTR{1-4}/{index-name}.[gz|zip]
 
 So for XBRL in the 3rd quarter of 2010 we'd do:
 
-<ftp://ftp.sec.gov/edgar/full-index/2010/QTR3/xbrl.gz>
+~~<ftp://ftp.sec.gov/edgar/full-index/2010/QTR3/xbrl.gz>~~
+<https://www.sec.gov/Archives/edgar/full-index/2010/QTR3/xbrl.gz>
 
-[ftp-doc]: https://www.sec.gov/edgar/searchedgar/ftpusers.htm
+~~[ftp-doc]: https://www.sec.gov/edgar/searchedgar/ftpusers.htm~~
 
 ### CIK lists and lookup
 
