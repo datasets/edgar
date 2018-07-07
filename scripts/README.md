@@ -33,6 +33,6 @@ Python-based
   * Have not tried. Overall looks quite basic
 
 * https://github.com/edouardswiac/python-edgar
-  * downloads the EDGAR fillings index from the SEC FTP. The index is comprised of IDX files. An IDX file is a csv-like file that contains the following information:
+  * downloads the EDGAR fillings index from the SEC ~~FTP~~ HTTPS. The index is comprised of IDX files. An IDX file is a csv-like file that contains the following information:
   * So this is only part of EDGAR
 
