@@ -86,8 +86,8 @@ https://www.sec.gov/Archives/edgar/full-index/2008/QTR4/master.gz
 
 That is, they have the following general form:
 
-    ~~ftp://ftp.sec.gov/edgar/full-index/{'<YYYY>'}/QTR{1-4}/{'<index-name>'}.[gz|zip]~~
-    https://www.sec.gov/Archives/edgar/full-index/{'<YYYY>'}/QTR{1-4}/{'<index-name>'}.[gz|zip]
+    ~~ftp://ftp.sec.gov/edgar/full-index/`{YYYY}`/QTR`{1-4}`/`{index-name}`.[gz|zip]~~
+    https://www.sec.gov/Archives/edgar/full-index/`{YYYY}`/QTR`{1-4}`/`{index-name}`.[gz|zip]
 
 So for XBRL in the 3rd quarter of 2010 we'd do:
 
