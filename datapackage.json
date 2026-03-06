@@ -1,0 +1,34 @@
+{
+  "name": "edgar",
+  "title": "SEC EDGAR",
+  "description": "Metadata and reference material for SEC EDGAR filings and financial statement bulk datasets.",
+  "profile": "data-package",
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
+  "sources": [
+    {
+      "name": "SEC EDGAR",
+      "path": "https://www.sec.gov/edgar.shtml",
+      "title": "SEC EDGAR"
+    },
+    {
+      "name": "SEC Financial Statement Data Sets",
+      "path": "https://www.sec.gov/dera/data/financial-statement-data-sets.html",
+      "title": "SEC Financial Statement Data Sets"
+    }
+  ],
+  "resources": [
+    {
+      "name": "sec-financials-readme",
+      "path": "financials/sec-readme.html",
+      "format": "html",
+      "mediatype": "text/html"
+    }
+  ],
+  "version": "0.1.0"
+}
